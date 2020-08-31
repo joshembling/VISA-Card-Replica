@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;900&display=swap');
+
+$cardText: #dfdfdf;
+$shadow: 1px 1px 1px #b8b5b5, 1px 2px 1px #b8b5b5, 1px 3px 1px #b8b5b5;
+$shadowNum: 1px 1px 1px #b8b5b5, 1px 2px 1px #b8b5b5, 1px 3px 1px #b8b5b5,
+  1px 4px 1px #b8b5b5, 1px 3px 1px #b8b5b5, 1px 3px 1px #b8b5b5,
+  1px 2px 1px #b8b5b5;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#156681, #62c8eb, #62c8eb);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Source Code Pro', monospace;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 100px auto;
+  height: 100vh;
+}
+
+.wrap {
+  background: linear-gradient(to bottom right, #00afe9, #00afe9, #1d3466);
+  height: 600px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 20px rgb(92, 92, 92);
+}
+
+header {
+  height: 30%;
+
+  .barclays {
+    width: 50%;
+    opacity: 0.9;
+    float: left;
+  }
+  .contactless {
+    float: right;
+    width: 9%;
+    margin-right: 3%;
+    margin-top: 3%;
+  }
+}
+
+.chip {
+  position: relative;
+  top: -70px;
+  margin-left: 20px;
+  margin-top: -15px;
+
+  .gold-chip {
+    width: 25%;
+  }
+}
+
+.card-number {
+  text-align: center;
+  font-size: 4.3rem;
+  letter-spacing: 2px;
+  color: $cardText;
+  margin-top: -90px;
+  text-shadow: $shadowNum;
+}
+
+table {
+  td {
+    padding: 0 10px;
+  }
+  margin: 20px;
+  color: #fff;
+
+  .m-y {
+    padding-bottom: 5px;
+    font-size: 12px;
+  }
+  .info {
+    line-height: 80%;
+    font-size: 14px;
+  }
+  .date {
+    color: $cardText;
+    text-shadow: $shadow;
+    font-size: 1.5rem;
+    color: $cardText;
+    letter-spacing: 2px;
+  }
+}
+
+.cardholder-name {
+  color: $cardText;
+  text-shadow: $shadow;
+  margin: 0 0 0 45px;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+
+.sort-code {
+  display: inline-block;
+  color: $cardText;
+  text-shadow: $shadow;
+  font-size: 1.5rem;
+  margin: -20px 0 0 45px;
+  letter-spacing: 2.5px;
+}
+
+.account {
+  display: inline-block;
+  color: $cardText;
+  text-shadow: $shadow;
+  font-size: 1.5rem;
+  letter-spacing: 2.5px;
+}
+
+.visa {
+  float: right;
+  width: 25%;
+  margin-top: -65px;
+}

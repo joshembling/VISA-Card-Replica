@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#156681), color-stop(#62c8eb), to(#62c8eb));
+  background: linear-gradient(#156681, #62c8eb, #62c8eb);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Source Code Pro', monospace;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 100px auto;
+  height: 100vh;
+}
+
+.wrap {
+  background: -webkit-gradient(linear, left top, right bottom, from(#00afe9), color-stop(#00afe9), to(#1d3466));
+  background: linear-gradient(to bottom right, #00afe9, #00afe9, #1d3466);
+  height: 600px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 25px;
+  -webkit-box-shadow: 10px 10px 20px #5c5c5c;
+          box-shadow: 10px 10px 20px #5c5c5c;
+}
+
+header {
+  height: 30%;
+}
+
+header .barclays {
+  width: 50%;
+  opacity: 0.9;
+  float: left;
+}
+
+header .contactless {
+  float: right;
+  width: 9%;
+  margin-right: 3%;
+  margin-top: 3%;
+}
+
+.chip {
+  position: relative;
+  top: -70px;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+
+.chip .gold-chip {
+  width: 25%;
+}
+
+.card-number {
+  text-align: center;
+  font-size: 4.3rem;
+  letter-spacing: 2px;
+  color: #dfdfdf;
+  margin-top: -90px;
+  text-shadow: 1px 1px 1px #b8b5b5, 1px 2px 1px #b8b5b5, 1px 3px 1px #b8b5b5, 1px 4px 1px #b8b5b5, 1px 3px 1px #b8b5b5, 1px 3px 1px #b8b5b5, 1px 2px 1px #b8b5b5;
+}
+
+table {
+  margin: 20px;
+  color: #fff;
+}
+
+table td {
+  padding: 0 10px;
+}
+
+table .m-y {
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+table .info {
+  line-height: 80%;
+  font-size: 14px;
+}
+
+table .date {
+  color: #dfdfdf;
+  text-shadow: 1px 1px 1px #b8b5b5, 1px 2px 1px #b8b5b5, 1px 3px 1px #b8b5b5;
+  font-size: 1.5rem;
+  color: #dfdfdf;
+  letter-spacing: 2px;
+}
+
+.cardholder-name {
+  color: #dfdfdf;
+  text-shadow: 1px 1px 1px #b8b5b5, 1px 2px 1px #b8b5b5, 1px 3px 1px #b8b5b5;
+  margin: 0 0 0 45px;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+
+.sort-code {
+  display: inline-block;
+  color: #dfdfdf;
+  text-shadow: 1px 1px 1px #b8b5b5, 1px 2px 1px #b8b5b5, 1px 3px 1px #b8b5b5;
+  font-size: 1.5rem;
+  margin: -20px 0 0 45px;
+  letter-spacing: 2.5px;
+}
+
+.account {
+  display: inline-block;
+  color: #dfdfdf;
+  text-shadow: 1px 1px 1px #b8b5b5, 1px 2px 1px #b8b5b5, 1px 3px 1px #b8b5b5;
+  font-size: 1.5rem;
+  letter-spacing: 2.5px;
+}
+
+.visa {
+  float: right;
+  width: 25%;
+  margin-top: -65px;
+}
+/*# sourceMappingURL=style.css.map */
